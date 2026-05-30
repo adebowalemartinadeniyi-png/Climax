@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climax Creation — Professional Embroidery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="company-name">Climax Creation</span>
+        <p class="tagline">Premium Embroidery Design & Services</p>
+      </div>
+
+      <nav class="tabs" role="tablist" aria-label="Main">
+        <button class="tab active" role="tab" aria-selected="true" data-target="home">Home</button>
+        <button class="tab" role="tab" aria-selected="false" data-target="services">Services</button>
+        <button class="tab" role="tab" aria-selected="false" data-target="portfolio">Portfolio</button>
+        <button class="tab" role="tab" aria-selected="false" data-target="about">About</button>
+        <button class="tab" role="tab" aria-selected="false" data-target="contact">Contact</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="home" class="tab-panel active" role="tabpanel">
+      <div class="hero">
+        <div class="hero-text">
+          <h1>Exquisite Embroidery Designs</h1>
+          <p class="lead">Transform your ideas into stunning embroidered masterpieces. Custom designs for apparel, home decor, and gifts.</p>
+          <a class="btn primary" href="#contact">Request a Quote</a>
+        </div>
+        <div class="hero-image">
+          <img src="https://via.placeholder.com/400x300?text=Embroidery+Design" alt="Embroidery showcase" />
+        </div>
+      </div>
+
+      <div class="highlights">
+        <div class="card">
+          <h3>🎨 Custom Design</h3>
+          <p>Personalized embroidery designs tailored to your vision.</p>
+        </div>
+        <div class="card">
+          <h3>⚡ Fast Turnaround</h3>
+          <p>Quick delivery without compromising quality.</p>
+        </div>
+        <div class="card">
+          <h3>✨ Premium Quality</h3>
+          <p>High-grade threads and expert craftsmanship.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="tab-panel" role="tabpanel">
+      <h2>Our Services</h2>
+      <ul class="services-list">
+        <li>Custom Logo Embroidery</li>
+        <li>Apparel Embroidery (Polo, Caps, Jackets)</li>
+        <li>Home Decor Embroidery</li>
+        <li>Wedding & Event Designs</li>
+        <li>Digitizing Services</li>
+        <li>Bulk Orders & Corporate Gifting</li>
+      </ul>
+      
+      <h3 style="margin-top:30px">Why Choose Climax Creation?</h3>
+      <ul class="services-list">
+        <li>10+ Years of Experience</li>
+        <li>Professional Design Team</li>
+        <li>100% Satisfaction Guarantee</li>
+        <li>Affordable Pricing</li>
+        <li>Free Design Consultation</li>
+      </ul>
+    </section>
+
+    <section id="portfolio" class="tab-panel" role="tabpanel">
+      <h2>Our Portfolio</h2>
+      <div class="projects-grid">
+        <figure>
+          <img src="images.jpg" alt="Logo embroidery" />
+          <figcaption>Custom Logo Design</figcaption>
+        </figure>
+        <figure>
+          <img src="22.png" alt="Polo embroidery" />
+          <figcaption>Corporate Polo Shirts</figcaption>
+        </figure>
+        <figure>
+          <img src="iii.jpg" alt="Cap embroidery" />
+          <figcaption>Custom Caps</figcaption>
+        </figure>
+        <figure>
+          <img src="33.jpg" alt="Jacket embroidery" />
+          <figcaption>Jacket Designs</figcaption>
+        </figure>
+        <figure>
+          <img src="44.jpg" alt="Gift items" />
+          <figcaption>Custom Gift Items</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="about" class="tab-panel" role="tabpanel">
+      <h2>About Climax Creation</h2>
+      <p>Climax Creation is a leading embroidery design and services provider committed to delivering exceptional quality and innovative designs. Our team of skilled artisans combines traditional craftsmanship with modern technology to create stunning embroidered products.</p>
+      
+      <h3 style="margin-top:20px">Our Mission</h3>
+      <p>To provide high-quality, affordable embroidery services that exceed customer expectations and bring creative visions to life.</p>
+      
+      <h3 style="margin-top:20px">Our Values</h3>
+      <ul class="services-list">
+        <li>Quality & Excellence</li>
+        <li>Customer Satisfaction</li>
+        <li>Innovation & Creativity</li>
+        <li>Integrity & Reliability</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="tab-panel" role="tabpanel">
+      <h2>Contact Us</h2>
+      <form class="contact-form" id="contactForm">
+        <label>
+          Your Name
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          Email Address
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          Phone Number
+          <input type="tel" name="phone" required />
+        </label>
+        <label>
+          Project Details
+          <textarea name="message" rows="6" placeholder="Describe your embroidery project..." required></textarea>
+        </label>
+        <button class="btn primary" type="submit">Send Inquiry</button >
+      </form>
+      
+      <div class="contact-info" style="margin-top:30px">
+        <h3>Get in Touch</h3>
+        <p><strong>Email:</strong> <a href="mailto:info@climaxcreation.com">info@climaxcreation.com</a></p>
+        <p><strong>Phone:</strong> +234 (0) 123 456 7890</p>
+        <p><strong>Address:</strong> 123 Craft Street, Creative District, Lagos, Nigeria</p>
+        <p><strong>Hours:</strong> Mon - Sat, 9AM - 6PM</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Climax Creation — All rights reserved. | Premium Embroidery Services</small>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const tabs = document.querySelectorAll('.tab');
+      const panels = document.querySelectorAll('.tab-panel');
+      const yearEl = document.getElementById('year');
+      yearEl.textContent = new Date().getFullYear();
+
+      function activate(id) {
+        tabs.forEach(t => {
+          const active = t.dataset.target === id;
+          t.classList.toggle('active', active);
+          t.setAttribute('aria-selected', active ? 'true' : 'false');
+        });
+        panels.forEach(p => p.classList.toggle('active', p.id === id));
+        history.replaceState(null, '', '#' + id);
+      }
+
+      tabs.forEach(t => t.addEventListener('click', () => activate(t.dataset.target)));
+      
+      document.getElementById('contactForm').addEventListener('submit', (e) => {
+        e.preventDefault();
+        alert('Thank you! We will contact you within 24 hours.');
+        e.target.reset();
+      });
+
+      const start = location.hash.replace('#', '') || 'home';
+      activate(start);
+    });
+  </script>
+</body>
+</html>
